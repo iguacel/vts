@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap");
+
+:root {
+  --gris: #49545e;
+  --black: #0f1419;
+  --sans: "Roboto Mono", monospace;
+  --light: 100;
+  --regular: 400;
+  --bold: 700;
+}
+
+.sans {
+  font-family: var(--sans);
+  letter-spacing: 0rem;
+}
+
+/*
+* Typebase
+* Mod
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+- Google Fonts Imports
+- Setup
+- Copy & Lists
+- Headings
+- Tables
+- CodeBlocks
+- Spacing
+- Utils
+- Weights
+- Especiales general
+- Max width
+*/
+
+/* Setup
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html {
+  /* Default typefaces here */
+  font-family: var(--sans);
+  font-size: 16px;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Copy & Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+p,
+a {
+  line-height: 1.755rem;
+  margin-top: 1.7rem;
+  margin-bottom: 0;
+  letter-spacing: -0.001rem;
+  font-weight: var(--regular);
+}
+
+ul,
+ol {
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+ul li,
+ol li {
+  line-height: 1.7rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote {
+  line-height: 1.7rem;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Headings
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  font-weight: var(--regular);
+  margin-top: 1.7rem;
+  margin-bottom: 0;
+  line-height: 1.7rem;
+}
+
+/* Sizes */
+
+.xxxsmall {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+.xxsmall {
+  font-size: 68.75%;
+  line-height: 1.5;
+}
+
+.xsmall {
+  font-size: 75%;
+  line-height: 1.5;
+}
+
+h6,
+.small {
+  font-size: 87.5%;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+}
+
+h5,
+.root {
+  font-size: 100%;
+  line-height: 1.755rem;
+  letter-spacing: 0.02rem;
+}
+
+h4,
+.medium {
+  font-size: 106.25%;
+  line-height: 1.7;
+  letter-spacing: -0.008rem;
+}
+
+h3,
+.large {
+  font-size: 150%;
+  line-height: 1.4;
+  letter-spacing: -0.012rem;
+}
+
+h2,
+.xlarge {
+  font-size: 200%;
+  line-height: 1.3;
+  letter-spacing: -0.02rem;
+}
+
+h1,
+.xxlarge {
+  font-size: 250%;
+  line-height: 1.2;
+  letter-spacing: -0.021rem;
+}
+
+.xxxlarge {
+  font-size: 300%;
+  line-height: 1.2;
+}
+
+.xxxxlarge {
+  font-size: 400%;
+  line-height: 1.2;
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+table {
+  margin-top: 1.7rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  padding: 0;
+  line-height: 33px;
+}
+
+/* Code-Blocks
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+code {
+  vertical-align: bottom;
+}
+
+/* Utils
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Hug the block above you */
+
+.hug {
+  margin-top: 0;
+}
+
+.hug1 {
+  margin-top: 0.5rem;
+}
+
+/* No margin - no padding */
+
+.p0 {
+  padding: 0;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.pm {
+  margin: 0;
+  padding: 0;
+}
+
+/* TextAlign */
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+/* Opacity */
+
+.op5 {
+  opacity: 0.5;
+}
+
+.op6 {
+  opacity: 0.6;
+}
+
+.op7 {
+  opacity: 0.7;
+}
+
+.op8 {
+  opacity: 0.8;
+}
+
+.op9 {
+  opacity: 0.9;
+}
+
+.small {
+  font-size: 80%;
+}
+
+/* Lineheight */
+
+.l1 {
+  line-height: 1rem;
+}
+.l11 {
+  line-height: 1.1rem;
+}
+.l12 {
+  line-height: 1.2rem;
+}
+.l13 {
+  line-height: 1.3rem;
+}
+.l14 {
+  line-height: 1.4rem;
+}
+.l1 {
+  line-height: 1.5rem;
+}
+
+/* Weights
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.light {
+  font-weight: var(--light);
+}
+
+.regular {
+  font-weight: var(--regular);
+}
+
+strong,
+.bold {
+  font-weight: var(--bold);
+  letter-spacing: 0.02rem;
+}
+
+/* Uppercase */
+
+.up {
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+}
+
+.gris {
+  color: var(--gris);
+}
+
+.white {
+  color: white;
+}
+
+.exp {
+  letter-spacing: 0.2em;
+}
+
+.shadow {
+  text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.5);
+}
+
+.shadow1 {
+  text-shadow: 1px 1px 16px rgba(0, 0, 0, 1);
+}
+
+.shadowBlack {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.balance-text {
+  margin: 0 auto;
+}
+
+/* Span */
+
+.bgBlack {
+  background: black;
+  color: white;
+  padding: 0.1rem 0.4rem 0.2rem 0.4rem;
+  margin: 0.1rem;
+  word-break: none;
+}
+
+/* List */
+.peace {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Especiales General
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.lead {
+  font-size: 120%;
+  line-height: 1.9rem;
+}
+
+figcaption {
+  color: var(--gris);
+  margin: 0.3rem 0 0 0;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  font-weight: var(--regular);
+}
+
+figcaption strong {
+  color: var(--black);
+  font-weight: var(--regular);
+}
+
+/* Columns */
+
+.columns {
+  column-count: 1;
+  column-gap: 3.5rem;
+  margin-top: 2em;
+}
+
+.columns > p:first-child {
+  margin-top: 0;
+}
+
+/* GRANDE */
+@media (min-width: 568px) {
+  .columns {
+    column-count: 2;
+  }
+}
+
+/* Media queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (min-width: 740px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+/* Max width
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.max {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.maxImg {
+  max-width: 1160px;
+}
+
+/* GRAFICO */
+
+.fuente {
+  line-height: 1.1rem;
+}

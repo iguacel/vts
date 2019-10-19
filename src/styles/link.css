@@ -1,0 +1,33 @@
+:root {
+  --color: RGBA(195, 194, 193, 0.1);
+  --colorLight: RGBA(195, 194, 193, 0.1);
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  /* margin: 0 .2em 0 .2em; */
+}
+
+.link {
+  background-image: linear-gradient(var(--colorLight), var(--colorLight));
+  background-repeat: repeat-y;
+  background-size: 0 0;
+  background-position: 0 65%;
+  transition: 200ms ease;
+}
+
+.link:hover {
+  background-image: linear-gradient(var(--color) 0%, var(--color) 100%);
+  background-size: 100% 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+a {
+  background-color: initial;
+}
